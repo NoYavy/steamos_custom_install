@@ -89,21 +89,21 @@ sudo chmod 000 /dev/nvme0n1
 
 ## 🛠 What This Fixes (Compared to Valve’s Script)
 
-\| Valve's Script                          \| This Script                             \|
-\|----------------------------------------\|-----------------------------------------\|
-\| Hardcoded to `/dev/nvme0n1pX`          \| Prompts for any disk (e.g. `/dev/sda`)  \|
-\| Crashes on external drives             \| Fully stable on all device types        \|
-\| GUI-based (zenity)                     \| Clean CLI interface                     \|
-\| Wipes disks with no confirmation       \| Prompts before doing anything destructive \|
+| Valve's Script                      | This Script                               |
+|------------------------------------|-------------------------------------------|
+| Hardcoded to `/dev/nvme0n1pX`      | Prompts for any disk (e.g. `/dev/sda`)    |
+| Crashes on external drives         | Fully stable on all device types          |
+| GUI-based (zenity)                 | Clean CLI interface                       |
+| Wipes disks with no confirmation   | Prompts before doing anything destructive |
 
 ---
 
 ## 📂 File Overview
 
-\| File                \| Description                                       \|
-\|---------------------\|---------------------------------------------------\|
-\| `repair_device.sh`  \| Main patched installer script with disk prompt    \|
-\| `repair_reimage.sh` \| Simple wrapper for running `repair_device.sh all` |
+| File                | Description                                       |
+|---------------------|---------------------------------------------------|
+| `repair_device.sh`  | Main patched installer script with disk prompt    |
+| `repair_reimage.sh` | Simple wrapper for running `repair_device.sh all` |
 
 ---
 
