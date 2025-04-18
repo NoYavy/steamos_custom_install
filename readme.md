@@ -52,9 +52,9 @@ chmod +x repair_device.sh
 ---
 ### 5. Run the Installer Script
 
-\`\`\`bash
+```bash
 sudo ./repair_device.sh all
-\`\`\`
+```
 
 You’ll be prompted to:
 - Enter the target disk (e.g. `/dev/sda`)
@@ -78,9 +78,9 @@ This script will:
 
 - If you're installing to an **external SSD**, it’s highly recommended to unplug your internal NVMe drive — or lock it down like this:
 
-\`\`\`bash
+```bash
 sudo chmod 000 /dev/nvme0n1
-\`\`\`
+```
 
 - The script automatically detects whether your disk needs \`p\` in partition names (e.g. \`nvme0n1p1\` vs \`sda1\`)
 - You can tweak the script to skip formatting \`/home\`, disable BIOS updates, or jump into a chroot after install
