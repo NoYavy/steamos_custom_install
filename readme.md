@@ -40,15 +40,15 @@ Launch **Konsole** from the desktop, or press `Ctrl + Alt + T`.
 
 ```bash
 git clone https://github.com/louij2/steamos_custom_install.git
-cd steamos_custom_install
-
+cd steamos_custom_install 
+```
 ---
 
 ### 4. Make the Script Executable
 
 ```bash
 chmod +x repair_device.sh
-
+```
 ---
 ### 5. Run the Installer Script
 
