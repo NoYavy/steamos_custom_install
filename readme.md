@@ -16,7 +16,7 @@ This tool lets you install or repair SteamOS using **Valve’s official recovery
 - Valve’s official SteamOS recovery image  
   👉 [Download here](https://store.steampowered.com/steamos/download/?ver=custom)
 - A USB stick flashed with the ISO image using [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/en/)
-- A keyboard or SSH access
+- A keyboard and mouse
 - The target drive you want to install SteamOS on (internal or external)
 
 ---
@@ -113,3 +113,4 @@ sudo chmod 000 /dev/nvme0n1
 **This will completely erase the selected disk.**  
 Triple-check that you’ve chosen the correct device before continuing.  
 Use at your own risk — but know that it’s been tested and built to avoid surprises.
+It seems that if you enable SSHD from the installer then if will fail to install SteamOS. 
