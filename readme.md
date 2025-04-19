@@ -11,7 +11,8 @@ This tool lets you install or repair SteamOS using **Valve’s official recovery
 
 ## 💿 What You Need
 
-- A Steam Deck or compatible PC
+- A Steam Deck or compatible PC 
+  👉 [Valve's Requirments](https://store.steampowered.com/steamos/buildyourown)
 - Valve’s official SteamOS recovery image  
   👉 [Download here](https://store.steampowered.com/steamos/download/?ver=custom)
 - A USB stick flashed with the image using [Balena Etcher](https://www.balena.io/etcher/)
