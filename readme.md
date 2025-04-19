@@ -15,7 +15,7 @@ This tool lets you install or repair SteamOS using **Valve’s official recovery
   👉 [Valve's Requirments](https://store.steampowered.com/steamos/buildyourown)
 - Valve’s official SteamOS recovery image  
   👉 [Download here](https://store.steampowered.com/steamos/download/?ver=custom)
-- A USB stick flashed with the image using [Balena Etcher](https://www.balena.io/etcher/)
+- A USB stick flashed with the ISO image using [Balena Etcher](https://www.balena.io/etcher/) or [Rufus](https://rufus.ie/en/)
 - A keyboard or SSH access
 - The target drive you want to install SteamOS on (internal or external)
 
