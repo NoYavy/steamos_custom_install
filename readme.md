@@ -110,7 +110,7 @@ sudo chmod 000 /dev/nvme0n1
 
 ## ⚠️ Disclaimer
 
-**This will completely erase the selected disk.**  
-Triple-check that you’ve chosen the correct device before continuing.  
-Use at your own risk — but know that it’s been tested and built to avoid surprises.
-It seems that if you enable SSHD from the installer then if will fail to install SteamOS. 
+- **This will completely erase the selected disk.**  
+- Triple-check that you’ve chosen the correct device before continuing.  
+- Use at your own risk — but know that it’s been tested and built to avoid surprises.
+- It seems that if you enable SSHD from the installer then if will fail to install SteamOS. 
